@@ -11,7 +11,7 @@ const PrimaryParty = ()=>{
                     </div>
                     <div className="col-sm-6 ">
                         <div className="title">
-                            <h1 style={{fontSize:'7rem'}} className="h1 d-none d-sm-block float-md-right">Name <br /> Prioridade</h1>
+                            <h1 style={{fontSize:'7rem'}} className="h1 d-none d-sm-block float-md-right">Juan <br /> Miguel</h1>
                         </div>
                         <p>Bem-vindo ao meu portfólio! Sou um apaixonado
                             desenvolvedor web com experiência sólida na
