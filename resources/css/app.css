@@ -1,3 +1,26 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+body{
+  background-color:  #F2F2F2;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+
+  
+  }
+  
+li{
+  
+    margin-right:25%;
+}
+
+.backgroundimage{
+  background-image: url('../../public/images/fundo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10em;
+  color: #FF9900;
+}
