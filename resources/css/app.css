@@ -24,3 +24,11 @@ li{
   padding-bottom: 10em;
   color: #FF9900;
 }
+.paragrafo{
+  text-align: justify;
+}
+.habilidades{
+  font-size: 30px;
+  margin-top:8px;
+  margin-bottom: 6px;
+}
