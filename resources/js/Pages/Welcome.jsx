@@ -68,6 +68,62 @@ export default function Welcome({ quote }) {
                            <SiMysql size="4em" />
 
                         </div>
+                        <div className='col-sm-12'>
+                            {/* para adicionar os meus projetos  */}
+                            <div className='text-center' style={{marginTop:"10rem"}}>
+                                <h4 style={{fontSize:"4rem"}}>Projetos</h4>
+
+                            </div>
+                            <div className='d-flex align-content-start flex-wrap'>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+                                <div className="cardProjetos">
+                                    <p>sdddddddddddddddddddddddddddd</p>
+                                </div>
+
+
+                            </div>
+                        </div>
                     </div>
 
                 </div>

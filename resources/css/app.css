@@ -32,3 +32,18 @@ li{
   margin-top:8px;
   margin-bottom: 6px;
 }
+.cardProjetos{
+  background-color: #d9d9d9;
+  width: 11rem;
+  height: 13rem;
+  padding:1rem;
+  border-radius:1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cardProjetos{
+  margin-right: 4%;
+  margin-top:2%;
+  
+}
