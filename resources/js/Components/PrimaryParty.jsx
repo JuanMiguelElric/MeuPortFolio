@@ -1,13 +1,15 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../css/app.css'
+import logo from "../../../public/images/eu.png"
 const PrimaryParty = ()=>{
     return(
         <>
-            <div className="container" style={{marginTop:'9em'}}>
+            <div className="container" style={{marginTop:'4em'}}>
                 <div className="row " >
                     <div className="col-sm-6 ">
-                        <p>ljgjddlfljdlfjjdsfjdfj nnkjn  jn eu sou o cara mais foda de todos e meu nome todos ja sabem mas ainda vão saber mais </p>
+                        <img src={logo} style={{width:'33em'}} alt="" />
+                       
                     </div>
                     <div className="col-sm-6 ">
                         <div className="title">

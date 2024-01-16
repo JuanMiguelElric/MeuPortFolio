@@ -34,8 +34,9 @@ li{
 }
 .cardProjetos{
   background-color: #d9d9d9;
-  width: 11rem;
-  height: 13rem;
+  color:black;
+  width: 18rem;
+  height: 17rem;
   padding:1rem;
   border-radius:1rem;
   display: flex;
@@ -45,5 +46,5 @@ li{
 .cardProjetos{
   margin-right: 4%;
   margin-top:2%;
-  
+
 }
