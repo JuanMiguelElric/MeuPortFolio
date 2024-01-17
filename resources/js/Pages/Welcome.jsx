@@ -6,6 +6,7 @@ import { SiMysql } from "react-icons/si";
 import { FaPhp } from "react-icons/fa";
 
 import { Link, Head } from '@inertiajs/react';
+import ComponentForm from '@/Components/ComponentForm';
 export default function Welcome({ quote }) {
     return (
         <>
@@ -101,6 +102,7 @@ export default function Welcome({ quote }) {
                     </div>
 
                 </div>
+                <ComponentForm />
             </div>
 
 

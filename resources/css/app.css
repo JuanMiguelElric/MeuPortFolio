@@ -24,6 +24,12 @@ li{
   padding-bottom: 10em;
   color: #FF9900;
 }
+.backgroundimage2{
+  background-image: url('../../public/images/imagemfund.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10em;
+}
 .paragrafo{
   text-align: justify;
 }
