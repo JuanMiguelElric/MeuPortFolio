@@ -5,7 +5,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-/*
+/*\App\Http\Controllers/ContatoController@Store
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
@@ -23,7 +23,10 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return Inertia::render('Curriculo');
 });
-Route::get('/curriculo', '\App\Http\Controllers\CurriculoController@curriculo');
+Route::post('/Erros/FalhaProcessamento',function(){
+    return Inertia::render('ErroProcessamento');
+});
+Route::post('/Contatoenviado/obrigado', '\App\Http\Controllers\ContatoController@Store');
 
 
 
