@@ -9,6 +9,7 @@ import ComponentForm from '@/Components/ComponentForm';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { Fade } from "react-awesome-reveal";
 import Bounce from 'react-reveal/Bounce';
+import Rodape from '@/Components/Rodap';
 
 export default function Welcome() {
     return (
@@ -74,12 +75,12 @@ export default function Welcome() {
                                 </div>
                                 <br />
                                 <div className="col-sm-6">
-                                    <IoLogoJavascript size="4em" />
-                                    <BsFiletypeHtml size="4em" />
-                                    <IoLogoCss3 size="4em" />
-                                    <FaPhp size="4em" />
-                                    <IoLogoNodejs size="4em"/>
-                                    <IoLogoReact size="4em"/>
+                                    <IoLogoJavascript color="yellow" size="4em" />
+                                    <BsFiletypeHtml color="red" size="4em" />
+                                    <IoLogoCss3 color='blue' size="4em" />
+                                    <FaPhp color='blue' size="4em" />
+                                    <IoLogoNodejs color='green' size="4em"/>
+                                    <IoLogoReact color='white' size="4em"/>
                                     <SiMysql size="4em" />
 
                                 </div>
@@ -126,6 +127,7 @@ export default function Welcome() {
                     </div>
                     <ComponentForm />
                 </div>
+                <Rodape/>
 
             </ParallaxProvider>
 
