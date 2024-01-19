@@ -18,7 +18,7 @@ const Menu = () =>{
                                 Home
                             </Link>
                         </li>
-                        <li className="d-none d-xl-block">Sobre mim</li>
+                        <li className="d-none d-xl-block"><Link className="link" href="/curriculopessoal"> Curriculo</Link></li>
                         <li className="d-none d-xl-block">Habilidades</li>
                         <li className="d-none d-xl-block">Projetos</li>
                     </ul>

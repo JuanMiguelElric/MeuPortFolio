@@ -25,7 +25,7 @@ const Bemsucedido = () =>{
                             <br />
                             <br />
                             <button className="btn btn-success">
-                                <Link href="/">
+                                <Link className="link" href="/">
                                     Clique aqui!
                                 
                                 </Link>

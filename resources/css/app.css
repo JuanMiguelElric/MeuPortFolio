@@ -3,7 +3,7 @@ body{
   background-color:  #F2F2F2;
 }
 
-ul{
+ul, .habillitycurriculo{
     display: flex;
     list-style: none;
     font-size: 20px;

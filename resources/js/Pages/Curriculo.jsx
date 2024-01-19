@@ -3,15 +3,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../css/app.css'
 import { Head } from '@inertiajs/react';
 import { FaLinkedin, FaPhoneAlt } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
+import { SiGmail, SiPostgresql } from "react-icons/si";
+import { IoLogoJavascript, IoLogoCss3,IoLogoReact,IoLogoNodejs, IoLogoLaravel  } from "react-icons/io5";
+import { BsFiletypeHtml } from "react-icons/bs";
+import { SiMysql } from "react-icons/si";
+import { FaPhp } from "react-icons/fa";
+import Menu from '@/Components/Menu';
 
 
 const Curriculo = () => {
     return (
         <div>
             <Head title="Curriculo" />
-            <div className="container-fluid ">
-                <div className="row">
+            <div className="container-fluid  ">
+                <div className="row backgroundimage p-5">
+                    <Menu />
                     <div className="col-sm-12 text-center">
                         <div className='title'>
                             <h1 style={{fontSize:'4rem'}}>Desenvolvedor Full Stack</h1>
@@ -47,17 +53,18 @@ const Curriculo = () => {
                     <div className="row mt-5">
                         <div className="col-sm-12">
                             <h2>habilidades</h2>
-                            <ol>
-                                <li>JavaScript</li>
-                                <li>Html e Css</li>
-                                <li>Php</li>
-                                <li>Mysql</li>
-                                <li>Laravel</li>
-                                <li>React js</li>
-                                <li>Redux</li>
-                                <li>TypeScript</li>
+                            <div className='habillitycurriculo'>
+                                <div><IoLogoJavascript color='YELLOW' size={80}/></div>
+                                <div><BsFiletypeHtml color='head' size={80} /></div>
+                                <div><IoLogoCss3 color='blue' size={80} /></div>
+                                <div><IoLogoReact color='white' size={80}/></div>
+                                <div><FaPhp color='blue' size={80} /></div>
+                                <div><IoLogoLaravel size={80} /></div>
+                                <div><IoLogoNodejs color='green' size={80} /></div>
+                                <div><SiMysql size={80} /></div>
+                                <div><SiPostgresql color='blue' size={80} /></div>
 
-                            </ol>
+                            </div>
                         </div>
                     </div>
                     <br />
@@ -128,6 +135,7 @@ const Curriculo = () => {
                                 <p>Desenvolvimento de Websites</p>
                                 <p>Desenvolvimento de Sistemas para clinicas odontológicas</p>
                                 <p>Manutenção em Websites</p>
+                                <p>Criação de APIS, de controle financeiro, controle de estoque e de cadastro de CLientes.</p>
                                 <p>Desgin de websites</p>
 
                             </div>
