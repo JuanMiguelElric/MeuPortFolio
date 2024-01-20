@@ -2,9 +2,12 @@
 *{
   margin: 0;
   padding: 0;
+
 }
 body{
   background-color:  #F2F2F2;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-weight: 600;
 }
 
 ul, .habillitycurriculo{
@@ -12,9 +15,7 @@ ul, .habillitycurriculo{
     list-style: none;
     font-size: 20px;
     font-weight: 500;
-
-  
-  }
+}
   
 li{
   
@@ -26,7 +27,7 @@ li{
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 10em;
-  color: #FF9900;
+  color: #00cc00;
 }
 .backgroundimage2{
   background-image: url('../../public/images/imagemfund.jpg');
@@ -45,7 +46,7 @@ li{
 .cardProjetos{
   background-color: #d9d9d9;
   color:black;
-  width: 18rem;
+  width: 17rem;
   height: 17rem;
   padding:1rem;
   border-radius:1rem;
@@ -62,3 +63,7 @@ li{
   color: #FF9900;
   text-decoration: none;
 }
+
+/*pílula de conhecimento, caixa misteriosa
+5% contribuição das vendas
+*/

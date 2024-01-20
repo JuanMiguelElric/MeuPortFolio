@@ -16,12 +16,13 @@ const Rodape = () =>{
                         </div>
                     </div>
                     <div className="col-8">
-                        <p style={{color:"white"}}>            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sed necessitatibus id asperiores iste fugiat,             praesentium obcaecati explicabo consequatur voluptatem eos earum blanditiis dolorem eaque veritatis libero?               Magni, nam fugiat.</p>
+                        <p style={{color:"white"}}>Tudo o que a sua mão encontrar para fazer, faça-o com todo o seu coração. <br /><small style={{color:"white",marginRight:"0"}}>-Salomão</small></p>
+
                         <div className="nav">
                             <div className="nav-link"><FaFacebook color="white" size={50} /></div>
                             <div className="nav-link"><FaInstagram color="white" size={50} /></div>
                             <div className="nav-link"><FaLinkedin color="white" size={50} /></div>
-                            <div className="nav-link"></div>
+
                         </div>
                     </div>
                 </div>

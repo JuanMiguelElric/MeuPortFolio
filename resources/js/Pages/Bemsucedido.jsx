@@ -6,6 +6,7 @@ import React from "react";
 import Menu from "@/Components/Menu";
 import { Zoom } from "react-reveal";
 import { Link } from '@inertiajs/react';
+import Rodape from "@/Components/Rodap";
 const Bemsucedido = () =>{
     return(
         <>
@@ -34,6 +35,7 @@ const Bemsucedido = () =>{
                     </div>
                 </div>
             </div>
+            <Rodape/>
             
         </>
     )

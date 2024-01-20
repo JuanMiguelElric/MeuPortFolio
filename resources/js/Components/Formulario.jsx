@@ -20,8 +20,14 @@ const Formulario=()=>{
 
     const handleSubmit = async (event)=>{
         event.preventDefault();
+        try {
+            router.post('/Contatoenviado/obrigado',informacoes);
+            
+        } catch (error) {
+            console.error("erro", error);
+            
+        }
 
-        router.post('/Contatoenviado/obrigado',informacoes);
     }
 
 
