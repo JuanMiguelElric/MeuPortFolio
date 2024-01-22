@@ -57,6 +57,14 @@
         font-size: 6em;
         font-weight: 400;
     }
+    .tituloCurriculo{
+        font-size: 2em;
+        font-weight: 400;
+    }
+    .paragrafoSm{
+        font-size: 10px;
+
+    }
     li{       
         margin-left: 250%;       
     }
