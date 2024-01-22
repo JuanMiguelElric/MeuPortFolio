@@ -1,5 +1,7 @@
 import Menu from '@/Components/Menu';
 import '../../css/app.css';
+import '../../css/index.css';
+
 import PrimaryParty from '@/Components/PrimaryParty';
 import { Link, Head } from '@inertiajs/react';
 import ComponentForm from '@/Components/ComponentForm';
@@ -16,8 +18,9 @@ export default function Welcome() {
             <Head title="Bem vindo" />
             <ParallaxProvider scrollAxis="horizontal" >
                 <div className="backgroundimage">
-                
                     <Menu />
+                
+              
                     <br />
                     <Fade cascade damping={0.1}>
                         <PrimaryParty />

@@ -11,7 +11,7 @@ const Bemsucedido = () =>{
     return(
         <>
         <Head title="Bemsucedido" />
-            <div className="container-fluid backgroundimage">
+            <div className="container-fluid backgroundimage" style={{fontFamily: 'Cormorant Garamond, serif'}}>
                 <Menu />
                 <div className="row">
                     <div className="col-sm-12 p-5">

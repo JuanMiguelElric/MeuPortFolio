@@ -1,0 +1,56 @@
+
+@media screen and (max-width: 395px) {
+    body {
+      overflow-x: none;
+    }
+    .backgroundimage{
+      width: 100%;
+      z-index: 60;
+    }
+    .menu{
+        background: none;
+    }
+    .titulo{
+        font-size: 6em;
+        font-weight: 400;
+    }
+    li{       
+        margin-left: 250%;       
+    }
+    .habilidadescell{
+        font-size: 24px;
+    }
+    .cardProjetoSm{
+        width: 30em;
+        margin-bottom: 2em;
+    }
+    .buttonCell{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .menu-nav {
+        list-style: none;
+        position: absolute;
+        background: #fafafaeb;
+        left: 0;
+        width: 0;
+        height: 90rem;
+        overflow: hidden;
+        max-width: 290px;
+        z-index: 9;
+        font-size: 18px;
+        box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 16%);
+        transform: translateX(-100px);
+        transition: transform ease-in-out 0.2s;
+        /* transition: width ease 0.2s; */
+      }
+      .menu-nav.show-menu {
+        width: 100%;
+        transform: translateX(0px);
+        margin-top: 2em;
+      }
+      .menu-nav li a, .menu-nav li span {
+        display: block;
+        padding: 1rem;
+      }
+  }

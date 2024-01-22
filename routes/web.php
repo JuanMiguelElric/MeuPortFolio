@@ -20,7 +20,7 @@ Route::get('/', function () {
     return Inertia::render('Welcome');
 });
 
-Route::get('/dashboard', function () {
+Route::get('/curriculoPessoal', function () {
     return Inertia::render('Curriculo');
 });
 Route::post('/Erros/FalhaProcessamento',function(){
