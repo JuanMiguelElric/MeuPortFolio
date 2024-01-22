@@ -10,18 +10,17 @@ const PrimaryParty = ()=>{
         <>
             <div className="container" style={{marginTop:'4em',fontFamily: 'Cormorant Garamond, serif'}}>
                 <div className="row " >
-                    <div className="col-sm-6 d-none d-xl-block  ">
-                        <img src={logo}  style={{width:'33em'}} alt="" />
+                    <div className="col-sm-6 col-md-6 d-xl-none  ">
+                        <img src={logo} className="logoIpadMini"   alt="" />
                        
                     </div>
-                    <div className="col-sm-6 ">
+                    <div className="col-sm-6 col-md-6 ">
                         <div >
-                            <h1  className=" titulo float-right">JUAN <br /> MIGUEL</h1>
+                            <h1  className=" titulo tituloMd float-right">JUAN <br /> MIGUEL</h1>
                         </div>
-                        <p className="paragrafo" style={{color:"#ffff",fontSize:"27px"}}>Bem-vindo ao meu portfólio! Sou um apaixonado
+                        <p className=" paragrafomd paragrafo " >Bem-vindo ao meu portfólio! Sou um apaixonado
                             desenvolvedor web com experiência sólida na
-                            criação de soluções digitais inovadoras e eficientes
-                            . Abaixo, você encontrará uma visão geral dos meus
+                            criação de soluções digitais inovadoras e eficientes. Abaixo, você encontrará uma visão geral dos meus
                             projetos e habilidades.
                         </p>
                     </div>

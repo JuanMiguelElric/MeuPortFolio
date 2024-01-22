@@ -38,6 +38,8 @@ li{
 }
 .paragrafo{
   text-align: justify;
+  font-size: 27px;
+  color: #F2F2F2;
 }
 .habilidades{
   font-size: 2em;

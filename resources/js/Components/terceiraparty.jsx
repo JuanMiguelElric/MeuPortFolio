@@ -78,8 +78,8 @@ const TerceiraParte = () =>{
                                             <div className="card-body">
                                                 <h5 className="card-title">{projeto.Titulo}</h5>
                                                 <p className="card-text paragrafo">{projeto.Descricao}</p>
-                                                <a href={projeto.Repositorio} className="btn buttonCell btn-dark">Repositório</a>
-                                                <a href={projeto.Repositorio}  className="btn buttonCell btn-primary">Repositório</a>
+                                                <a href={projeto.Repositorio} className="btn  btn-dark buttonCell">Repositório</a>
+                                                <a href={projeto.Repositorio}  className="btn  btn-primary buttonCell">Repositório</a>
 
                                             </div>
                                         </div>
