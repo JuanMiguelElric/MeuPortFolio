@@ -1,3 +1,11 @@
+.h1{
+    font-size: 11rem;
+    font-weight: 400;
+}
+.logolg{
+    width: 43rem;
+
+}
 .menu-nav {
     list-style: none;
     position: absolute;
@@ -33,6 +41,9 @@
 .menu{
     background: none;
 }
+.paragrafolg{
+    font-size: 1em;
+}
 @media screen and (max-width: 495px) {
     body {
       overflow-x: none;
@@ -60,6 +71,10 @@
         color: #040404;
         text-decoration: none;
     }
+    .removerSm{
+        display: none;
+    }
+
 
 
 }
@@ -72,6 +87,12 @@
     }
     .paragrafomd{
         font-size: 19px;
+    }
+    .titlecardProject{
+        font-size: 25px;
+        font-weight: 300;
+        color: red;
+
     }
 
 }

@@ -17,14 +17,14 @@ const Menu = () =>{
                         <img src={logo} style={{width:'6em'}} alt="" />
                     </div>
                     <ul className="d-flex p-3 ">
-                        <li className=" d-xl-block">
+                        <li className=" d-sm-block removerSm">
                             <Link className="link" href="/">
                                 Home
                             </Link>
                         </li>
-                        <li className=" d-xl-none"><Link className="link" href="/curriculoPessoal"> Curriculo</Link></li>
-                        <li className=" d-xl-block link">Habilidades</li>
-                        <li className=" d-xl-block link">Projetos</li>
+                        <li className=" removerSm"><Link className="link" href="/curriculoPessoal"> Curriculo</Link></li>
+                        <li className=" removerSm link">Habilidades</li>
+                        <li className=" removerSm link">Projetos</li>
                         <li className=" menu d-md-none  d-lg-none">
                             <button className="menu" onClick={()=> SetNavbarOpen((prev) => !prev)}>
                                 {navbarOpen ?  <MdClose color="white" size={45} /> : <GiHamburgerMenu size={45} color="white" />}
