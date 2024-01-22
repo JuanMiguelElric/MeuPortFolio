@@ -54,7 +54,7 @@ const TerceiraParte = () =>{
                                     <h4 style={{fontSize:"4rem"}}>Projetos</h4>
 
                                 </div>
-                                <div className='d-flex align-content-start flex-wrap p-4'>
+                                <div className='d-flex align-content-start flex-wrap p'>
                                     <Bounce left>
                                         {[
                                             {imagem:'a', Titulo:"Site para Clinica Odontológica",Descricao:"Site desenvolvido em projeto freelancer para a Rede de Clinica Odonto Centro e envio de email com nodemailler",Repositorio:"https://github.com/JuanMiguelElric/RededeClinicasODontoCentroRn"},
@@ -62,16 +62,16 @@ const TerceiraParte = () =>{
                                             {imagem:'a', Titulo:"Agendador de Tarefas", Descricao:"Agendador de Tarefas que Desenvolvi utilizando php e mysql.", Repositorio:"https://github.com/JuanMiguelElric/ListadeTarefas"},
                                             {imagem:'a', Titulo:"Teste postaAqui", Descricao:"Nas minhas férias desenvolvi um projeto de teste para o processo Seletivo da PostaAqui, onde Utilizei React js.",Repositório:"https://github.com/JuanMiguelElric/TestePostaqui"},
                                             {imagem:'a', Titulo:"Mini ERP", Descricao:"Mini ERP Desenvolvido em Laravel e Mysql", Repositorio:"https://github.com/JuanMiguelElric/ERP"},
-                                            {imagem: 'a', Titulo:"Buscador de CEp", Descricao:"Buscador de cep feito em php utilizando a api viacep", Repositorio:"https://github.com/JuanMiguelElric/BuscadordeCep/blob/main/src/Search.php"},
+                                            {imagem: 'a', Titulo:"Buscador de CEp", Descricao:"Buscador de cep desenvolvido em php utilizando a api viacep", Repositorio:"https://github.com/JuanMiguelElric/BuscadordeCep/blob/main/src/Search.php"},
                                             {image:'a',Titulo:"CruddeUsuario", Descricao:"Crud de Usuario feito para em laravel php  e mysql ", Repositorio:"https://github.com/JuanMiguelElric/CrudUsuario"},
-                                            {image: 'a', Titulo:"Api Rest ", Descricao:"Api Rest Desenvolvida em php com o auxilio do curso da Dio", Repositorio:"https://github.com/JuanMiguelElric/ApiRestDioPHP"},
                                             {image:'a', Titulo: "Site Ecommerce Rip Point", Descricao:"Site Ecommerce Freelancer Desenvolvido Em ReactJs, Laravel e mysql.", Repositorio:"https://github.com/JuanMiguelElric/https-github.com-JuanMiguelElric-Ecommerce"}
                                         ].map((projeto,index)=>(
                                         <div key={index} className="cardProjetos">
                                             <div className="card-body">
                                                 <h5 className="card-title">{projeto.Titulo}</h5>
-                                                <p className="card-text">{projeto.Descricao}</p>
+                                                <p className="card-text paragrafo">{projeto.Descricao}</p>
                                                 <a href={projeto.Repositorio} className="btn btn-dark">Repositório</a>
+                                                <a href={projeto.Repositorio} style={{marginLeft:'1em'}} className="btn btn-primary">Repositório</a>
 
                                             </div>
                                         </div>
