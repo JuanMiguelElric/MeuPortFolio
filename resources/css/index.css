@@ -6,6 +6,11 @@
     width: 37rem;
 
 }
+.MinhaFoto{
+    width: 26em;
+    border-radius: 20em;
+    margin-left: 6em;
+}
 
 .menu-nav {
     list-style: none;

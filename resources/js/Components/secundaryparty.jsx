@@ -1,6 +1,9 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Fade } from "react-reveal";
+import MinhaFoto from "../../../public/images/minhafoto.png";
+import "../../css/app.css";
+import '../../css/index.css';
 
 const SecundaryParty= () =>{
     return(
@@ -19,6 +22,10 @@ const SecundaryParty= () =>{
                                 </p>
 
                             </div>
+                        </div>
+                        <div className="col-sm-6 removerSm">  
+                            <img src={MinhaFoto} className="MinhaFoto" alt="" />
+
                         </div>
 
                     </Fade>
