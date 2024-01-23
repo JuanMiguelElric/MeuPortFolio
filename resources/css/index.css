@@ -3,13 +3,14 @@
     font-weight: 400;
 }
 .logolg{
-    width: 43rem;
+    width: 37rem;
 
 }
+
 .menu-nav {
     list-style: none;
     position: absolute;
-    background: #ffffff;
+    background: #090101;
     left: 0;
     width: 0;
     height: 90rem;
@@ -17,7 +18,7 @@
     max-width: 290px;
     z-index: 9;
     font-size: 18px;
-    box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 16%);
+    box-shadow: 30px 30px 45px 60px rgba(151, 149, 154, 0.08), 0 4px 6px -2px rgba(242, 242, 242, 0.16);
     transform: translateX(-100px);
     transition: transform ease-in-out 0.2s;
     /* transition: width ease 0.2s; */
@@ -43,6 +44,13 @@
 }
 .paragrafolg{
     font-size: 1em;
+}
+.paragrafoCurriculoLg{
+    font-size: 18px;
+    font-weight: 400;
+}
+.TituloCurriculoLg{
+    font-size: 70px;
 }
 @media screen and (max-width: 495px) {
     body {
@@ -76,8 +84,11 @@
         margin-bottom: 2em;
     }
     .linksm{
-        color: #040404;
+        color: #f1f1f1;
         text-decoration: none;
+        font-weight: 100;
+        font-size: 2em;
+        
     }
     .removerSm{
         display: none;
@@ -86,7 +97,7 @@
 
 
 }
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 1024px) {
     .logoIpadMini{
         width: 24em;
     }
@@ -101,6 +112,9 @@
         font-weight: 300;
         color: red;
 
+    }
+    .tituloCucrriculoMD{
+        font-size: 9em;
     }
 
 }

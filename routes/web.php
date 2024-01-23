@@ -23,6 +23,9 @@ Route::get('/', function () {
 Route::get('/curriculoPessoal', function () {
     return Inertia::render('Curriculo');
 });
+Route::get('/Entraremcontato/desenvolvedorJuan',function(){
+    return Inertia::render('Contato');
+});
 Route::post('/Erros/FalhaProcessamento',function(){
     return Inertia::render('ErroProcessamento');
 });

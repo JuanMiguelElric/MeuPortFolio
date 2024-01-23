@@ -33,7 +33,7 @@ const Menu = () =>{
                                     <div><Link className="linksm" href="/curriculoPessoal">Curriculo</Link></div>
                                     <div><Link className="linksm">Habilidade</Link></div>
                                     <div><Link className="linksm">Projetos</Link></div>
-                                    <div><Link className="linksm">Contato</Link></div>
+                                    <div><Link className="linksm" href="/Entraremcontato/desenvolvedorJuan">Contato</Link></div>
 
                                 </div>
                             </button>

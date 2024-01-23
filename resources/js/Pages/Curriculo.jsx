@@ -16,12 +16,12 @@ const Curriculo = () => {
     return (
         <div>
             <Head title="Curriculo" />
-            <div className="container-fluid  ">
-                <div className="row backgroundimage ">
+            <div className="container-fluid backgroundimage  ">
+                <div className="row  ">
                     <Menu />
                     <div className="col-sm-12  text-center">
                         <div >
-                            <h1 className="tituloCurriculo">Desenvolvedor Full Stack</h1>
+                            <h1 className="tituloCurriculo tituloCurriculoMD">Desenvolvedor Full Stack</h1>
                             <h2>Nome: Juan Miguel de Oliveira</h2>
 
                         </div>
@@ -32,7 +32,7 @@ const Curriculo = () => {
 
                         </div>
                         <div className="col-sm-6">
-                            <div className="paragrafo paragrafoSm">
+                            <div className="paragrafo paragrafoCurriculoLg paragrafoSm">
                                 <p>Busco oportunidade como Desenvolvedor Full Stack Júnior em uma empresa inovadora, onde posso aplicar e expandir meus conhecimentos em desenvolvimento web. Meu objetivo é contribuir para projetos desafiadores, desenvolver soluções eficientes e aprender continuamente em um ambiente colaborativo. Estou empolgado para trabalhar em equipes dinâmicas, enfrentar novos desafios e crescer profissionalmente, contribuindo para o sucesso da empresa. Com habilidades sólidas em tecnologias front-end e back-end, estou pronto para agregar valor através do meu comprometimento, criatividade e desejo constante de aprimorar minhas habilidades.</p>
 
                             </div>
@@ -55,15 +55,15 @@ const Curriculo = () => {
                         <div className="col-sm-12">
                             <h2>habilidades</h2>
                             <div className='habillitycurriculo'>
-                                <div><IoLogoJavascript color='YELLOW' size={80}/></div>
-                                <div><BsFiletypeHtml color='head' size={80} /></div>
-                                <div><IoLogoCss3 color='blue' size={80} /></div>
-                                <div><IoLogoReact color='white' size={80}/></div>
-                                <div><FaPhp color='blue' size={80} /></div>
-                                <div><IoLogoLaravel size={80} /></div>
-                                <div><IoLogoNodejs color='green' size={80} /></div>
+                                <div><IoLogoJavascript color='YELLOW' size={40}/></div>
+                                <div><BsFiletypeHtml color='head' size={40} /></div>
+                                <div><IoLogoCss3 color='blue' size={40} /></div>
+                                <div><IoLogoReact color='white' size={40}/></div>
+                                <div><FaPhp color='blue' size={40} /></div>
+                                <div><IoLogoLaravel size={40} /></div>
+                                <div><IoLogoNodejs color='green' size={40} /></div>
                                 <div><SiMysql size={80} /></div>
-                                <div><SiPostgresql color='blue' size={80} /></div>
+                                <div><SiPostgresql color='blue' size={40} /></div>
 
                             </div>
                         </div>
@@ -73,27 +73,27 @@ const Curriculo = () => {
                     <div className="row mt-5">
                         <div className="col-sm-12">
                             <div className="title text-center ">
-                                <h2 className="h1 tituloCurriculo">Projetos Pessoais</h2>
+                                <h2 className="h1 tituloCurriculo TituloCurriculoLg">Projetos Pessoais</h2>
                             </div>
                             <br />
-                            <div className="paragrafo paragrafoSm mt-5">
+                            <div className="paragrafo paragrafoCurriculoLg paragrafoSm mt-5">
                                 <h3 className="text-center">ERP para Ecommerce</h3>
                                 <p>Desenvolvimento de um Mini ERP: Este sistema possibilita a gestão eficiente de produtos por meio de operações de adição, exclusão e alteração. Construído utilizando as tecnologias avançadas Laravel, MySQL e Bootstrap, o mini ERP proporciona uma experiência intuitiva e responsiva. Com funcionalidades robustas, o sistema permite o cadastro detalhado de produtos, proporcionando uma administração simplificada e eficaz para otimizar a gestão do seu negócio. </p>
                                 <br />
                                 
                             </div>
-                            <div className="paragrafo paragrafoSm mt-5">
-                                <h3 className="text-center">Agendador de Tarefas </h3>
+                            <div className="paragrafo paragrafoSm paragrafoCurriculoLg mt-5">
+                                <h3 className="text-center ">Agendador de Tarefas </h3>
                                 <p>Desenvolvi um Agendador de Tarefas personalizado, construído com as tecnologias CSS, PHP e MySQL. Este agendador foi projetado para atender às nossas necessidades, sendo utilizado por mim e minha esposa para organizar de maneira eficiente a nossa rotina diária. Com um design intuitivo e funcionalidades adaptáveis, o Agendador de Tarefas proporciona uma experiência personalizada, ajudando-nos a gerenciar e planejar as atividades do dia a dia de forma eficaz e organizada</p>
                                 <br />
 
                             </div>
-                            <div className="paragrafo paragrafoSm mt-5">
+                            <div className="paragrafo paragrafoSm paragrafoCurriculoLg mt-5">
                                 <h3 className="text-center">Teste PostaAqui</h3>
                                 <p>Participei do processo seletivo para a vaga de desenvolvedor fullstack na postAqui, no qual fui desafiado a criar uma calculadora de frete utilizando React.js integrado a uma API de CEP. </p>
 
                             </div>
-                            <div className="paragrafo paragrafoSm mt-5">
+                            <div className="paragrafo paragrafoCurriculoLg paragrafoSm mt-5">
                                 <h3 className="text-center">Aplicativo Hospitalar</h3>
                                 <p>Estou desenvolvendo uma aplicação para uso em hospitais, com o objetivo de aprimorar o controle de administração de medicamentos líquidos. A solução engloba um sistema embarcado que atua como um contador preciso para infusão de soro, juntamente com um aplicativo (APK) que possibilita aos médicos registrarem as prescrições medicamentosas destinadas aos pacientes.
 
@@ -114,7 +114,7 @@ const Curriculo = () => {
                             <div className="title">
                                 <h2 style={{fontSize:"3em"}}>Experiencias</h2>
                             </div>
-                            <div className="paragrafo paragrafoSm">
+                            <div className="paragrafo paragrafoCurriculoLg paragrafoSm">
                                 <h3>Técnico de Informática</h3>
                                 <h2>Serviço Autonomo de água e esgoto de Campo do meio </h2>
                                 <small>periodo 2021-2023</small>
@@ -127,7 +127,7 @@ const Curriculo = () => {
                             </div>
                             <br />
                             <br />
-                            <div className="paragrafo paragrafoSm">
+                            <div className="paragrafo paragrafoCurriculoLg paragrafoSm">
                                 <h3>Desenvolvedor Full stack</h3>
                                 <h2>Autonomo </h2>
                                 <small>periodo 2023-no momento</small>

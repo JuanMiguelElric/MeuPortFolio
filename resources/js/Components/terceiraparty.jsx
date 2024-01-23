@@ -15,6 +15,7 @@ import Testepostaqui from "../../../public/images/websites/Testepostaqui.png";
 import MiniErp from "../../../public/images/websites/erp.png";
 import Carrinho from "../../../public/images/websites/cariinho.jpg";
 import Rippoint from "../../../public/images/websites/rip.jpg";
+import PortFolio from "../../../public/images/websites/Meu-portfólio.jpg"
 
 const TerceiraParte = () =>{
     return(
@@ -71,8 +72,8 @@ const TerceiraParte = () =>{
                                             {imagem:Agendadordetarefas, Titulo:"Agendador de Tarefas", Descricao:"Como uma pessoa muito organizada, descidi colocar minha habilidades em platica desenvolvendo uma agendador usando php e mysql.", Repositorio:"https://github.com/JuanMiguelElric/ListadeTarefas"},
                                             {imagem:Testepostaqui, Titulo:"Teste postaAqui", Descricao:"Nas minhas férias desenvolvi um projeto de teste para o processo Seletivo da PostaAqui, onde Utilizei React js.",Repositório:"https://github.com/JuanMiguelElric/TestePostaqui"},
                                             {imagem:MiniErp, Titulo:"Mini ERP", Descricao:"Mini ERP, onde a pessoa consegue cadastrar excluir e alterar os produtos de sua loja Desenvolvido em Laravel e Mysql", Repositorio:"https://github.com/JuanMiguelElric/ERP"},
-                                            {imagem: 'a', Titulo:"Buscador de CEp", Descricao:"Buscador de cep desenvolvido em php utilizando a api viacep", Repositorio:"https://github.com/JuanMiguelElric/BuscadordeCep/blob/main/src/Search.php"},
-                                            {imagem: Carrinho,Titulo:"Carrinho de compras", Descricao:"Carrinho de compras desenvolvido em React js e Redux apenas para treinamento ", Repositorio:"https://github.com/JuanMiguelElric/CrudUsuario"},
+                                            {imagem: PortFolio, Titulo:"Meu Portfolio", Descricao:"Olá esse Portfólio que você está visualizando foi desenvolvido por mim e nele eu utilizei REactJs, laravel e Mysql", Repositorio:"https://github.com/JuanMiguelElric/MeuPortFolio"},
+                                            {imagem: Carrinho,Titulo:"Carrinho de compras", Descricao:"Carrinho de compras desenvolvido em React js e Redux apenas para treinamento ", Repositorio:"https://github.com/JuanMiguelElric/CartSimpleReact"},
                                             {imagem:Rippoint, Titulo: "Site Ecommerce Rip Point", Descricao:"Site Ecommerce Freelancer Desenvolvido Em ReactJs, Laravel e mysql.", Repositorio:"https://github.com/JuanMiguelElric/https-github.com-JuanMiguelElric-Ecommerce"}
                                         ].map((projeto,index)=>(
                                         <div key={index} className="cardProjetos cardProjetoSm">
