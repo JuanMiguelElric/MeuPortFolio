@@ -24,7 +24,7 @@ const TerceiraParte = () =>{
                 <div className="container">
                     <div >
                         <Fade cascade damping={0.1}>
-                            <div className="text-center h1 " style={{marginTop:"3rem"}}>
+                            <div className="text-center h1 " id="habilidade" style={{marginTop:"3rem"}}>
                                 <h2 style={{fontSize:"4rem"}}>Habilidades</h2>
                             </div>
                             <br />
@@ -60,7 +60,7 @@ const TerceiraParte = () =>{
                         <Fade cascade damping={0.1}>
                             <div className='col-sm-12'>
                                 {/* para adicionar os meus projetos  */}
-                                <div className='text-center' style={{marginTop:"10rem"}}>
+                                <div className='text-center' id="projeto" style={{marginTop:"10rem"}}>
                                     <h4 style={{fontSize:"4rem"}}>Projetos</h4>
 
                                 </div>

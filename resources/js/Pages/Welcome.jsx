@@ -11,7 +11,6 @@ import { Fade } from "react-awesome-reveal";
 import Rodape from '@/Components/Rodap';
 import SecundaryParty from '@/Components/secundaryparty';
 import TerceiraParte from '@/Components/terceiraparty';
-
 export default function Welcome() {
     return (
         <>

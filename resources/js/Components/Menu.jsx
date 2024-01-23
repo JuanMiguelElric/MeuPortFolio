@@ -6,6 +6,9 @@ import '../../css/index.css';
 import { Link } from '@inertiajs/react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
+import { InertiaLink } from "@inertiajs/inertia-react";
+
+
 const Menu = () =>{
     const [navbarOpen, SetNavbarOpen] = useState(false);
     console.log('menu');
@@ -23,16 +26,18 @@ const Menu = () =>{
                             </Link>
                         </li>
                         <li className=" removerSm"><Link className="link" href="/curriculoPessoal"> Curriculo</Link></li>
-                        <li className=" removerSm link">Habilidades</li>
-                        <li className=" removerSm link">Projetos</li>
+                        <li className=" removerSm link"><InertiaLink className="link" href="#habilidade">Habilidade</InertiaLink></li>
+                        <li className=" removerSm link"><InertiaLink className="link" href="#projeto">Projeto</InertiaLink></li>
                         <li className=" menu d-md-none  d-lg-none">
                             <button className="menu" onClick={()=> SetNavbarOpen((prev) => !prev)}>
                                 {navbarOpen ?  <MdClose color="white" size={45} /> : <GiHamburgerMenu size={45} color="white" />}
                                 <div className={`menu-nav${navbarOpen ? ' show-menu' : ''}`}>
                                     <div color="black"><Link className="linksm" href="/">Home</Link></div>
                                     <div><Link className="linksm" href="/curriculoPessoal">Curriculo</Link></div>
-                                    <div><Link className="linksm">Habilidade</Link></div>
-                                    <div><Link className="linksm">Projetos</Link></div>
+                                    <div>
+                                        <InertiaLink className="link" href="#habilidade">Habilidade</InertiaLink>
+                                    </div>
+                                    <div><InertiaLink className="link" href="#projeto">Projeto</InertiaLink> </div>
                                     <div><Link className="linksm" href="/Entraremcontato/desenvolvedorJuan">Contato</Link></div>
 
                                 </div>
