@@ -10,7 +10,7 @@ import { BsFiletypeHtml } from "react-icons/bs";
 import { SiMysql } from "react-icons/si";
 import { FaPhp } from "react-icons/fa";
 import Menu from '@/Components/Menu';
-
+import MinhaFoto from "../../../public/images/minhafoto.png"
 
 const Curriculo = () => {
     return (
@@ -28,8 +28,8 @@ const Curriculo = () => {
 
                     </div>
                     <div className="row " style={{marginTop:"10%"}}>
-                        <div className="col-sm-6">
-
+                        <div className="col-sm-6 removerSm">
+                            <img src={MinhaFoto} className="MinhaFoto" alt="" />
                         </div>
                         <div className="col-sm-6">
                             <div className="paragrafo paragrafoCurriculoLg paragrafoSm">

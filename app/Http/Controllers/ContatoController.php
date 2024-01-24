@@ -25,7 +25,7 @@ class ContatoController extends Controller
             return $e->getMessage();
 
             // Redirecione para a página de erro Inertia
-            return Inertia::render('/Contatoenviado/obrigado');
+            return Inertia::render('/Erros/FalhaProcessamento');
         }
     }
 

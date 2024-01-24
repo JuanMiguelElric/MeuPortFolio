@@ -47,6 +47,7 @@ const Formulario = () => {
             await router.post('/Contatoenviado/obrigado', informacoes);
         } catch (error) {
             console.error("Erro:", error);
+            router.post('/Erros/FalhaProcessamento');
         }
     }
 

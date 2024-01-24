@@ -3,10 +3,10 @@ Olá, seja bem-vindo ao meu portfólio, um espaço dedicado à apresentação do
 
 Este portfólio foi desenvolvido utilizando as seguintes tecnologias:
 
-Inertia.js React.js
-Laravel
-MySQL
-Bootstrap
+# Inertia.js React.js
+# Laravel
+# MySQL
+# Bootstrap
 Foi um desafio significativo para mim, no qual pude colocar em prática diversas habilidades que estavam em processo de desenvolvimento. Integrando o backend com o frontend, criei um projeto robusto que não apenas atende às expectativas dos meus clientes, mas também representa um marco pessoal.
 
 Ao longo do tempo, continuarei a aprimorar este projeto, pois entendo que nunca estará totalmente concluído. Tenho ainda muito a desenvolver e estou comprometido a evoluir constantemente.
