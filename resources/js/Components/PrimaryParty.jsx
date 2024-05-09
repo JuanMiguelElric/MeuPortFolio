@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../css/app.css'
 import '../../css/index.css'
-import logo from "../../../public/images/eu.png"
+import logo from "../../../public/images/logo.png"
 
 
 const PrimaryParty = ()=>{
