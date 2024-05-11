@@ -15,21 +15,21 @@ const Menu = () =>{
     return(
         <>
             <nav  className="navbar  navbar-inverse" style={{fontFamily: 'Cormorant Garamond, serif',color:'#fffff'}}>
-                <div className="container " style={{paddingRight:'10rem'}}>
+                <div className="container-fluid " >
                     <div className="navbar-header">
                         <img src={logo} style={{width:'6em'}} alt="" />
                     </div>
                     <ul className="d-flex p-3 ">
-                        <li className=" d-sm-block removerSm">
+                        <li className=" d-md-block d-lg-block d-none removerSm">
                             <Link className="link" href="/">
                                 Home
                             </Link>
                         </li>
 
-                        <li className=" removerSm link"><InertiaLink className="link" href="#habilidade">Habilidade</InertiaLink></li>
-                        <li className=" removerSm link"><InertiaLink className="link" href="#projeto">Projetos</InertiaLink></li>
-                        <li className=" menu d-md-none  d-lg-none">
-                            <button className="menu" onClick={()=> SetNavbarOpen((prev) => !prev)}>
+                        <li className=" d-md-block d-lg-block d-none link"><InertiaLink className="link" href="#habilidade">Habilidade</InertiaLink></li>
+                        <li className=" d-md-block d-lg-block d-none  removerSm link"><InertiaLink className="link" href="#projeto">Projetos</InertiaLink></li>
+                        <li className="  d-md-none    d-lg-none">
+                            <button className="menu " onClick={()=> SetNavbarOpen((prev) => !prev)}>
                                 {navbarOpen ?  <MdClose color="white" size={45} /> : <GiHamburgerMenu size={45} color="white" />}
                                 <div className={`menu-nav${navbarOpen ? ' show-menu' : ''}`}>
                                     <div color="black"><Link className="linksm" href="/">Home</Link></div>

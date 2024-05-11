@@ -23,7 +23,7 @@ const SecundaryParty= () =>{
 
                             </div>
                         </div>
-                        <div className="col-sm-6 removerSm">  
+                        <div className="col-sm-6  removerSm">  
                             <img src={MinhaFoto} className="MinhaFoto" alt="" />
 
                         </div>

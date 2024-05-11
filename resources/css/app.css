@@ -20,11 +20,12 @@ ul, .habillitycurriculo{
   
 li{
   
-    margin-right:25%;
+    margin-left:25px;
 }
 
 .backgroundimage{
   background-image: url('../../public/images/fundo.jpg');
+  width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 10em;

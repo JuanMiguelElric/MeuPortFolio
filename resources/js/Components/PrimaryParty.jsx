@@ -10,7 +10,7 @@ const PrimaryParty = ()=>{
         <>
             <div className="container" style={{marginTop:'4em',fontFamily: 'Cormorant Garamond, serif'}}>
                 <div className="row " >
-                    <div className="col-sm-6 col-md-6   ">
+                    <div className="col-sm-6 d-none d-md-block col-md-6   ">
                         <img src={logo} className="logoIpadMini removerSm logolg"   alt="" />
                        
                     </div>
